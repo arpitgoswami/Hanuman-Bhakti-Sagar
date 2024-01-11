@@ -1,6 +1,12 @@
+import ReactDOM from "react";
+import First from "./First.jsx";
 import "./App.css";
 
 function App() {
+  function renderApp(component, str) {
+    ReactDOM.render(component, document.getElementById("workspace"));
+  }
+
   return (
     <>
       <div className="p-4" style={{ backgroundColor: "#EF4036" }}>
@@ -131,7 +137,7 @@ function App() {
         </div>
 
         <div className="pt-4 font-semibold text-4xl inkut-font">|| दोहा ||</div>
-        <div className="py-4 font-medium inkut-font">
+        <div className="pt-4 font-medium inkut-font">
           | पवनतनय संकट हरन, मंगल मूरति रूप |
           <br />
           || राम लखन सीता सहित, हृदय बसहु सुर भूप ||
@@ -144,6 +150,10 @@ function App() {
       >
         || Jai Shree Ram ||
       </div>
+
+      <button onClick={() => renderApp(<First />)}>Click Me</button>
+
+      <div id="workspace"></div>
     </>
   );
 }
