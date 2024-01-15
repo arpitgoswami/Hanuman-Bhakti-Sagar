@@ -1,8 +1,8 @@
 function Banner() {
   return (
     <>
-      <div className="banner">
-        <img src="./balaji-banner.jpg" alt="" />
+      <div>
+        <img className="banner" src="./banner.png" alt="" />
       </div>
     </>
   );

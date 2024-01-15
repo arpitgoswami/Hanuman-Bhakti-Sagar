@@ -17,30 +17,29 @@ function App() {
 
   return (
     <>
-      <Header />
       <Banner />
 
       <div className="mt-4 flex justify-center">
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<Chalisa />)}
         >
           Hanuman-Chalisa
         </button>
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<BajrangBan />)}
         >
           Bajrang-Ban
         </button>
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<HanumanAstak />)}
         >
           Hanuman-Astak
         </button>
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<HanumanAarti />)}
         >
           Hanuman-Aarti
