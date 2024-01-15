@@ -19,7 +19,7 @@ function App() {
     <>
       <Banner />
 
-      <div className="mt-4 flex justify-center">
+      <div className="mt-1 flex justify-center">
         <button
           className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<Chalisa />)}
@@ -46,7 +46,7 @@ function App() {
         </button>
       </div>
 
-      <div className="my-8 text-center" id="workspace">
+      <div className="my-8 text-center sm:px-8" id="workspace">
         <Chalisa />
       </div>
 
