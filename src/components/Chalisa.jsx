@@ -1,16 +1,16 @@
 function Chalisa() {
   return (
     <>
-      <div className="font-semibold text-4xl inkut-font">|| दोहा ||</div>
+      <div className="font-semibold text-4xl inkut-font">॥ दोहा ॥</div>
       <div className="py-4 font-medium inkut-font">
-        || श्रीगुरु चरन सरोज रज, निजमन मुकुरु सुधारि। बरनउं रघुबर बिमल जसु, जो
-        दायक फल चारि ||
+        श्रीगुरु चरन सरोज रज, निजमन मुकुरु सुधारि। बरनउं रघुबर बिमल जसु, जो दायक
+        फल चारि ॥
         <br />
-        || बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार। बल बुधि बिद्या देहु मोहिं,
-        हरहु कलेस बिकार ||
+        बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार। बल बुधि बिद्या देहु मोहिं, हरहु
+        कलेस बिकार ॥
       </div>
 
-      <div className="pt-4 font-semibold text-4xl inkut-font">|| चौपाई ||</div>
+      <div className="pt-4 font-semibold text-4xl inkut-font">॥ चौपाई ॥</div>
       <div className="py-4 font-medium inkut-font">
         जय हनुमान ज्ञान गुन सागर। जय कपीस तिहुं लोक उजागर।।
         <br />

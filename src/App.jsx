@@ -5,6 +5,8 @@ import Banner from "./components/Banner.jsx";
 import Chalisa from "./components/Chalisa.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
+import HanumanAstak from "./components/HanumanAstak.jsx";
+import HanumanAarti from "./components/Hanuman-Aarti.jsx";
 
 import "./App.css";
 
@@ -17,18 +19,33 @@ function App() {
     <>
       <Header />
       <Banner />
-      <button
-        className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
-        onClick={() => renderApp(<Chalisa />)}
-      >
-        Hanuman-Chalisa
-      </button>
-      <button
-        className="ml-2 bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
-        onClick={() => renderApp(<BajrangBan />)}
-      >
-        Bajrang-Ban
-      </button>
+
+      <div className="mt-4 flex justify-center">
+        <button
+          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          onClick={() => renderApp(<Chalisa />)}
+        >
+          Hanuman-Chalisa
+        </button>
+        <button
+          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          onClick={() => renderApp(<BajrangBan />)}
+        >
+          Bajrang-Ban
+        </button>
+        <button
+          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          onClick={() => renderApp(<HanumanAstak />)}
+        >
+          Hanuman-Astak
+        </button>
+        <button
+          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4"
+          onClick={() => renderApp(<HanumanAarti />)}
+        >
+          Hanuman-Aarti
+        </button>
+      </div>
 
       <div className="my-8 text-center" id="workspace">
         <Chalisa />
