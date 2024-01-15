@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Application Screenshot
-![banner](https://github.com/arpitgoswami/Hanuman-Ji/assets/71710858/26f4e036-3c32-475f-b445-8b2d13715546)
+![FireShot Capture 022 - Jai Shree Ram - ram-bhakt-hanuman-ji onrender com](https://github.com/arpitgoswami/Hanuman-Ji/assets/71710858/4e0bd7c1-a1b9-4500-8940-85e7707bfae0)
