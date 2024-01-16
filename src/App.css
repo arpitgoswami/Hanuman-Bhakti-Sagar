@@ -18,3 +18,7 @@ body {
   height: auto;
   object-fit: cover;
 }
+
+#bold b {
+  font-size: 2rem;
+}
