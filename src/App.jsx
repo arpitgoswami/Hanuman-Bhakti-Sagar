@@ -1,12 +1,15 @@
 import ReactDOM from "react-dom";
 
-import BajrangBan from "./components/BajrangBan.jsx";
+import BajrangBan from "./components/Literature/BajrangBan.jsx";
+import Chalisa from "./components/Literature/Chalisa.jsx";
+import HanumanAarti from "./components/Literature/Hanuman-Aarti.jsx";
+import HanumanAstak from "./components/Literature/HanumanAstak.jsx";
+
 import Banner from "./components/Banner.jsx";
-import Chalisa from "./components/Chalisa.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
-import HanumanAstak from "./components/HanumanAstak.jsx";
-import HanumanAarti from "./components/Hanuman-Aarti.jsx";
+
+import Gallery from "./components/Gallery.jsx";
 
 import "./App.css";
 
@@ -18,31 +21,32 @@ function App() {
   return (
     <>
       <Banner />
+      <Gallery />
 
-      <div className="mt-1 flex justify-center">
+      <div className="mx-32 sm:mx-8 sm:grid sm:grid-cols-2 flex justify-center bg-orange-500">
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
-          onClick={() => renderApp(<Chalisa />)}
-        >
-          Hanuman-Chalisa
-        </button>
-        <button
-          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
+          className="hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<BajrangBan />)}
         >
           Bajrang-Ban
         </button>
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
-          onClick={() => renderApp(<HanumanAstak />)}
+          className="hover:bg-orange-700 text-white py-2 px-4"
+          onClick={() => renderApp(<Chalisa />)}
         >
-          Hanuman-Astak
+          Hanuman-Chalisa
         </button>
         <button
-          className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-4"
+          className="hover:bg-orange-700 text-white py-2 px-4"
           onClick={() => renderApp(<HanumanAarti />)}
         >
           Hanuman-Aarti
+        </button>
+        <button
+          className="hover:bg-orange-700 text-white py-2 px-4"
+          onClick={() => renderApp(<HanumanAstak />)}
+        >
+          Hanuman-Astak
         </button>
       </div>
 
