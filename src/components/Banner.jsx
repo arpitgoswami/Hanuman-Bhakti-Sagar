@@ -1,10 +1,6 @@
 function Banner() {
   return (
     <>
-      <div>
-        <img className="banner" src="./banner.png" alt="" />
-      </div>
-
       <div className="mx-32 sm:mx-8 mt-12 inkut-font" id="bold">
         <div className="text-3xl font-bold">• हनुमानजी मंत्र का महत्व -</div>
         <br />

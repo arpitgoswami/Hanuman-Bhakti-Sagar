@@ -20,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <Banner />
       <Gallery />
 
