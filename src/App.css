@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&family=Noto+Serif+Devanagari:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +8,10 @@
 
 .inkut-font {
   font-family: "Yatra One", serif;
+}
+
+.devanagri {
+  font-family: "Noto Serif Devanagari", sans-serif;
 }
 
 body {
