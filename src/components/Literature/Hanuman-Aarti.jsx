@@ -1,16 +1,16 @@
 function HanumanAarti() {
   return (
     <>
-      <div className="font-semibold text-4xl inkut-font">
+      <div className="inkut-font text-4xl font-semibold">
         ॥ श्री हनुमंत स्तुति ॥
       </div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font py-4 font-medium">
         मनोजवं मारुत तुल्यवेगं, जितेन्द्रियं, बुद्धिमतां वरिष्ठम् ॥<br />
         वातात्मजं वानरयुथ मुख्यं, श्रीरामदुतं शरणम प्रपद्धे ॥
       </div>
 
-      <div className="font-semibold text-4xl inkut-font">॥ आरती ॥</div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font text-4xl font-semibold">॥ आरती ॥</div>
+      <div className="inkut-font py-4 font-medium">
         आरती कीजै हनुमान लला की । दुष्ट दलन रघुनाथ कला की ॥<br />
         जाके बल से गिरवर काँपे । रोग-दोष जाके निकट न झाँके ॥<br />
         अंजनि पुत्र महा बलदाई । संतन के प्रभु सदा सहाई ॥<br />

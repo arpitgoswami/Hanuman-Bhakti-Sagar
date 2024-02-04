@@ -1,7 +1,7 @@
 function Banner() {
   return (
     <>
-      <div className="mx-32 sm:mx-8 mt-12 inkut-font" id="bold">
+      <div className="inkut-font mx-32 mt-12 sm:mx-8" id="bold">
         <div className="text-3xl font-bold">• हनुमानजी मंत्र का महत्व -</div>
         <br />
         हनुमानजी को बजरंगबली के नाम से भी पुकारा जाता है। बजरंगबली का अर्थ है,

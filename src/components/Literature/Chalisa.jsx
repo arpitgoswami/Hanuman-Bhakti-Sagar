@@ -1,8 +1,8 @@
 function Chalisa() {
   return (
     <>
-      <div className="font-semibold text-4xl inkut-font">॥ दोहा ॥</div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font text-4xl font-semibold">॥ दोहा ॥</div>
+      <div className="inkut-font py-4 font-medium">
         श्रीगुरु चरन सरोज रज, निजमन मुकुरु सुधारि। बरनउं रघुबर बिमल जसु, जो दायक
         फल चारि ॥
         <br />
@@ -10,8 +10,8 @@ function Chalisa() {
         कलेस बिकार ॥
       </div>
 
-      <div className="pt-4 font-semibold text-4xl inkut-font">॥ चौपाई ॥</div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font pt-4 text-4xl font-semibold">॥ चौपाई ॥</div>
+      <div className="inkut-font py-4 font-medium">
         जय हनुमान ज्ञान गुन सागर। जय कपीस तिहुं लोक उजागर।।
         <br />
         राम दूत अतुलित बल धामा। अंजनि-पुत्र पवनसुत नामा।।
@@ -93,8 +93,8 @@ function Chalisa() {
         तुलसीदास सदा हरि चेरा। कीजै नाथ हृदय महं डेरा।।
       </div>
 
-      <div className="pt-4 font-semibold text-4xl inkut-font">|| दोहा ||</div>
-      <div className="pt-4 font-medium inkut-font">
+      <div className="inkut-font pt-4 text-4xl font-semibold">|| दोहा ||</div>
+      <div className="inkut-font pt-4 font-medium">
         | पवनतनय संकट हरन, मंगल मूरति रूप |
         <br />
         || राम लखन सीता सहित, हृदय बसहु सुर भूप ||

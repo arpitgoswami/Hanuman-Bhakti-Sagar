@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="py-4 text-center text-white bg-orange-500">
+      <div className="bg-orange-500 py-4 text-center text-white">
         || Jai Shree Ram ||
       </div>
     </>

@@ -24,27 +24,27 @@ function App() {
       <Banner />
       <Gallery />
 
-      <div className="mx-32 sm:mx-8 sm:grid sm:grid-cols-2 flex justify-center bg-orange-500">
+      <div className="mx-32 flex justify-center bg-orange-500 sm:mx-8 sm:grid sm:grid-cols-2">
         <button
-          className="hover:bg-orange-700 text-white py-2 px-4"
+          className="px-4 py-2 text-white hover:bg-orange-700"
           onClick={() => renderApp(<BajrangBan />)}
         >
           Bajrang-Ban
         </button>
         <button
-          className="hover:bg-orange-700 text-white py-2 px-4"
+          className="px-4 py-2 text-white hover:bg-orange-700"
           onClick={() => renderApp(<Chalisa />)}
         >
           Hanuman-Chalisa
         </button>
         <button
-          className="hover:bg-orange-700 text-white py-2 px-4"
+          className="px-4 py-2 text-white hover:bg-orange-700"
           onClick={() => renderApp(<HanumanAarti />)}
         >
           Hanuman-Aarti
         </button>
         <button
-          className="hover:bg-orange-700 text-white py-2 px-4"
+          className="px-4 py-2 text-white hover:bg-orange-700"
           onClick={() => renderApp(<HanumanAstak />)}
         >
           Hanuman-Astak
@@ -55,7 +55,7 @@ function App() {
         <Chalisa />
       </div>
 
-      <div className="py-8 flex justify-center">
+      <div className="flex justify-center py-8">
         <iframe
           style={{ width: "60%", height: "500px" }}
           src="https://www.youtube.com/embed/dXl2NdlmeIE?si=yHJd5PCcdoFi-07p&amp;controls=0"

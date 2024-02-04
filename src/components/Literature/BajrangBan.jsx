@@ -1,15 +1,15 @@
 function BajrangBan() {
   return (
     <>
-      <div className="font-semibold text-4xl inkut-font">|| दोहा ||</div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font text-4xl font-semibold">|| दोहा ||</div>
+      <div className="inkut-font py-4 font-medium">
         "निश्चय प्रेम प्रतीति ते, बिनय करैं सनमान।"
         <br />
         "तेहि के कारज सकल शुभ, सिद्ध करैं हनुमान॥"
       </div>
 
-      <div className="pt-4 font-semibold text-4xl inkut-font">|| चौपाई ||</div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font pt-4 text-4xl font-semibold">|| चौपाई ||</div>
+      <div className="inkut-font py-4 font-medium">
         जय हनुमन्त सन्त हितकारी। सुन लीजै प्रभु अरज हमारी।।
         <br />
         जन के काज विलम्ब न कीजै। आतुर दौरि महासुख दीजै।।
@@ -81,8 +81,8 @@ function BajrangBan() {
         धूप देय अरु जपै हमेशा। ताके तन नहिं रहै कलेशा।।
       </div>
 
-      <div className="pt-4 font-semibold text-4xl inkut-font">|| दोहा ||</div>
-      <div className="pt-4 font-medium inkut-font">
+      <div className="inkut-font pt-4 text-4xl font-semibold">|| दोहा ||</div>
+      <div className="inkut-font pt-4 font-medium">
         "प्रेम प्रतीतहि कपि भजै, सदा धरैं उर ध्यान।"
         <br />
         "तेहि के कारज सकल शुभ, सिद्घ करैं हनुमान।।"

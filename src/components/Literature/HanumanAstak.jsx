@@ -1,10 +1,10 @@
 function HanumanAstak() {
   return (
     <>
-      <div className="font-semibold text-4xl inkut-font">
+      <div className="inkut-font text-4xl font-semibold">
         संकट मोचन हनुमानाष्टक
       </div>
-      <div className="py-4 font-medium inkut-font">
+      <div className="inkut-font py-4 font-medium">
         बाल समय रवि भक्षी लियो तब, तीनहुं लोक भयो अंधियारों । ताहि सों त्रास भयो
         जग को, यह संकट काहु सों जात न टारो ।<br /> देवन आनि करी बिनती तब, छाड़ी
         दियो रवि कष्ट निवारो । को नहीं जानत है जग में कपि, संकटमोचन नाम तिहारो ॥
@@ -35,8 +35,8 @@ function HanumanAstak() {
       </div>
 
       <div>
-        <div className="pt-4 font-semibold text-4xl inkut-font">॥ दोहा ॥</div>
-        <div className="py-4 font-medium inkut-font">
+        <div className="inkut-font pt-4 text-4xl font-semibold">॥ दोहा ॥</div>
+        <div className="inkut-font py-4 font-medium">
           लाल देह लाली लसे, अरु धरि लाल लंगूर ।<br />
           वज्र देह दानव दलन, जय जय जय कपि सूर ॥
         </div>
