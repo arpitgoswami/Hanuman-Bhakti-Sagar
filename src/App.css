@@ -27,3 +27,25 @@ body {
 #bold b {
   font-size: 2rem;
 }
+
+.header-font {
+  font-size: 5rem;
+}
+
+.header-width {
+  width: 70%;
+}
+
+@media only screen and (max-width: 640px) {
+  .header-img {
+    display: none;
+  }
+
+  .header-font {
+    font-size: 3rem;
+  }
+
+  .header-width {
+    width: 100%;
+  }
+}

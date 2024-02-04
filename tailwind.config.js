@@ -8,5 +8,5 @@ export default {
       // => @media (min-width: 640px) { ... }
     },
   },
-  plugins: [],
+  plugins: [prettier - plugin - tailwindcss],
 };
