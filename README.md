@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 ## Application Screenshot
 
 ![FireShot Capture 001 - Jai Shree Ram - localhost](https://github.com/arpitgoswami/Hanuman-Bhakti-Sagar/assets/71710858/fbeefa43-f398-4bb9-9ce1-2c3c5b852217)
+
